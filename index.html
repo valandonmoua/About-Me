@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>About Me | Va Landon Moua</title>
-    </head>
-    <body>
-        <div class="firstDiv">
-            <h1>WELCOME</h1>
-            <h2></h2>
-            <h3></h3>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>About Me | Va Landon Moua</title>
+  </head>
+  <body>
+    <div class="firstDiv">
+      <h1>WELCOME</h1>
+      <h2></h2>
+      <h3></h3>
 
-            <ul>
-                <li><a target="blank" href="./longboarding/longboarding.html">Longboarding</a></li>
-                <li><a target="blank" href="./music/music.html">Music</a></li>
-                <li><a target="blank" href="./military/military.html">Military</a></li>
-            </ul>
-            <button id="aboutMe">About Me</button>
-            <p class="paragraph"></p>
-            <img class="img" width="50%">
-        </div>
+      <ul>
+        <li>
+          <a target="blank" href="./longboarding/longboarding.html"
+            >Longboarding</a
+          >
+        </li>
+        <li><a target="blank" href="./music/music.html">Music</a></li>
+        <li><a target="blank" href="./military/military.html">Military</a></li>
+      </ul>
+      <button id="aboutMe">About Me</button>
+      <p class="paragraph"></p>
+      <img class="img" width="50%" />
+    </div>
 
-        <script>
+    <script>
+      const aboutMe = document.getElementById("aboutMe");
+      const paragraph = document.querySelector(".paragraph");
+      console.log(paragraph.innerText);
 
-            const aboutMe = document.getElementById("aboutMe");
-            const paragraph = document.querySelector(".paragraph");
-            console.log(paragraph.innerText);
+      aboutMe.addEventListener("click", function () {
+        const stringVariable = "Howdy there!";
+        const stringNameVariable = "Va Landon Moua";
+        const num = "29";
+        const imageSource = "./images/valandonmoua.jpeg";
 
-            aboutMe.addEventListener('click', function() {
-                const stringVariable = "Howdy there!"
-                const stringNameVariable = "Va Landon Moua";
-                const num = "29";
-                const imageSource = "./images/valandonmoua.jpeg";
-                
-                if (paragraph.innerText) {
-                    console.log("The paragraph already has text");
-                }else {
-                    console.log(false);
-                    paragraph.innerText = `${stringVariable} My name is ${stringNameVariable} and I am ${num} years old.`;
-                }
-                
-                const img = document.querySelector(".img");
-                img.src = imageSource;
-            })
-            
-        </script>
-    </body>
+        if (paragraph.innerText) {
+          console.log("The paragraph already has text");
+        } else {
+          console.log(false);
+          paragraph.innerText = `${stringVariable} My name is ${stringNameVariable} and I am ${num} years old.`;
+        }
+
+        const img = document.querySelector(".img");
+        img.src = imageSource;
+      });
+    </script>
+    <footer><p>&copy; Va Landon Moua All Rights Reserved 2023</p></footer>
+  </body>
 </html>
