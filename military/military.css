@@ -67,3 +67,7 @@ p {
 button {
     cursor: pointer;
 }
+
+footer {
+    text-align: center;
+}

@@ -47,8 +47,9 @@ img {
 }
 
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: myFont8;
     background-color:black;
+    text-align: center;
 }
 
 h1 {
@@ -61,7 +62,6 @@ p {
     color: white;
     margin-top: 50px;
     font-family: myFont8;
-    text-align: center;
 }
 
 h2 {
@@ -71,4 +71,9 @@ h2 {
 
 button {
     cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-family: myFont8;
 }
