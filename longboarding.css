@@ -1,3 +1,37 @@
+@font-face {
+    font-family: myFont8;
+    src: url(./fonts/GeosansLight.ttf);
+}
+
+@font-face {
+    font-family: myFont10;
+    src: url(./fonts/Agreloy.ttf);
+}
+
+@font-face {
+    font-family: myFont12;
+    src: url(/fonts/War\ is\ Over.ttf);
+}
+
+@font-face {
+    font-family: myFont13;
+    src: url(./fonts/CAMPUS\ PERSONAL\ USE.ttf);
+}
+  
+  @font-face {
+    font-family: myFont14;
+    src: url(./fonts/JudoKidsDemo-Regular.otf);
+}
+
+@font-face {
+    font-family: myFont15;
+    src: url(./fonts/Mom«t___.ttf);
+}
+
+@font-face {
+    font-family: myFont16;
+    src: url(./fonts/JMH\ Typewriter.ttf);
+}
 
 .center {
     display: block;
@@ -20,11 +54,14 @@ body {
 h1 {
     color: white;
     text-align: center;
+    font-family: myFont16;
 }
 
 p {
     color: white;
     margin-top: 50px;
+    font-family: myFont8;
+    text-align: center;
 }
 
 h2 {
