@@ -4,25 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>About Me | Va Landon Moua</title>
   </head>
   <body>
     <div class="firstDiv">
-      <h1>WELCOME</h1>
+      <h1>Welcome</h1>
       <h2></h2>
       <h3></h3>
 
       <ul>
-        <li>
-          <a target="blank" href="./longboarding/longboarding.html"
-            >Longboarding</a
-          >
-        </li>
-        <li><a target="blank" href="./music/music.html">Music</a></li>
-        <li><a target="blank" href="./military/military.html">Military</a></li>
+        <li><button><a target="blank" href="./longboarding/longboarding.html">Longboarding</a></li>
+        <li><button><a target="blank" href="./music/music.html">Music</a></li>
+        <li><button><a target="blank" href="./military/military.html">Military</a></li>
       </ul>
-      <button id="aboutMe">About Me</button>
+      <button id="aboutMe">ABOUT ME</button>
       <p class="paragraph"></p>
       <img class="img" width="50%" />
     </div>
@@ -35,7 +31,7 @@
       aboutMe.addEventListener("click", function () {
         const stringVariable = "Howdy there!";
         const stringNameVariable = "Va Landon Moua";
-        const num = "29";
+        const num = "30";
         const imageSource = "./images/valandonmoua.jpeg";
 
         if (paragraph.innerText) {

@@ -1,0 +1,167 @@
+@font-face {
+  font-family: myFont;
+  src: url(./fonts/KGHAPPYShadows.ttf);
+}
+
+@font-face {
+  font-family: myFont2;
+  src: url(./fonts/Adventure\ Hollow.otf);
+}
+
+@font-face {
+  font-family: myFont3;
+  src: url(./fonts/Impact\ Label.ttf);
+}
+
+@font-face {
+  font-family: myFont4;
+  src: url(./fonts/Sticky\ Memos\ Demo\ Plain.ttf);
+}
+
+@font-face {
+  font-family: myFont5;
+  src: url(./fonts/Plante.ttf);
+}
+@font-face {
+  font-family: myFont6;
+  src: url(./fonts/UchronyCircle-Bold-FFP.ttf);
+}
+
+@font-face {
+  font-family: myFont7;
+  src: url(./fonts/RioGrande.ttf);
+}
+
+@font-face {
+  font-family: myFont8;
+  src: url(./fonts/GeosansLight.ttf);
+}
+
+@font-face {
+  font-family: myFont9;
+  src: url(./fonts/BlackForest.otf);
+}
+
+@font-face {
+  font-family: myFont10;
+  src: url(./fonts/Agreloy.ttf);
+}
+
+@font-face {
+  font-family: myFont11;
+  src: url(./fonts/Plane\ Crash.ttf);
+}
+
+@font-face {
+  font-family: myFont12;
+  src: url(/fonts/War\ is\ Over.ttf);
+}
+
+@font-face {
+  font-family: myFont13;
+  src: url(./fonts/CAMPUS\ PERSONAL\ USE.ttf);
+}
+
+@font-face {
+  font-family: myFont14;
+  src: url(./fonts/JudoKidsDemo-Regular.otf);
+}
+
+@font-face {
+  font-family: myFont15;
+  src: url(./fonts/Mom«t___.ttf);
+}
+
+@font-face {
+  font-family: myFont16;
+  src: url(./fonts/JMH\ Typewriter.ttf);
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: black;
+  text-align: center;
+}
+
+.firstDiv {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: myFont16;
+  font: size 100em;
+}
+
+h2 {
+  color: white;
+  margin-top: 40px;
+}
+
+h3 {
+  color: white;
+  margin-top: 20px;
+}
+
+p {
+  color: white;
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 40px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: myFont;
+}
+
+li {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  margin-top: 40px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: myFont8;
+  border-style: double;
+  border-color: white;
+}
+
+.paragraph {
+  margin-top: 20px;
+  color: white;
+  font-family: myFont8;
+}
+
+.img {
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+  font-family: myFont8;
+}
